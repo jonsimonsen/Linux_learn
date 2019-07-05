@@ -1,0 +1,14 @@
+Status for Linux learning
+
+-Going through a tutorial (7/15)
+-Solving Bandit wargame (10/x)
+
+Done:
+
+-set up Linux in VBox.
+-install with apt-get and dpkg.
+-Folder navigation and file manipulation.
+-Change ownership and modes/privileges.
+-Basic processes, services and task scheduling.
+
+Next step: Configure git
