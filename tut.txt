@@ -1,0 +1,52 @@
+Linux for Beginners:
+
+-Install VBox w. Ubuntu setup
+-Install LinuxAdditions (requires Unity install)
+-Unity Tweak Tools
+-Choose Devices->Shared clipboard if necessary.
+
+1:07-1:24
+-Install Ubuntu on hard drive via USB-stick.
+
+1:24
+-Terminal commands
+- --help for help on a command
+-sudo (super user do) to install stuff, change privileges, access unowned files.
+-sudo su (switch user) to act as super
+-su jon to switch to user jon
+-apt-get install...
+-apt-get upgrade (upgrade packages)
+-apt-cache search (or policy)
+-sudo dpkg -i ... (for installing stuff that isn't in the Ubuntu repo/as deb files).
+-chmod/chown (-R for recursive)
+
+2:25
+-find . -type f/d -name "..."
+-iname (case insensitive)
+-perm 0664
+-size +-1k
+-NOT operator -not
+-maxdepth 1 does not search subfolders...
+
+-grep "..." filepath (-i case insensitive)
+- -n for line number
+-find ... -exec grep ... (execute grep on the output of find)
+- > filename redirects output to file >> to append (?)
+- | tee filename (pipe output to tee function that both outputs to screen and to a file)
+
+2:46
+-processes (top or ps aux)
+-ps aux | grep ... (to find named processes)
+or just pgrep ... to find process IDs
+-kill -9 PID
+-killall processname
+-sudo service sname start/stop/restart (old approach)
+-sudo systemctl start/stop/restart sname
+3:00
+
+-GIT/IDEs
+-git init-> git remote add origin ...addr
+-config user
+-git pull origin master
+-git branch --set-upstream-to=origin/master
+
